@@ -1,0 +1,99 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif; 
+}
+header  {
+    background-color:#9e77dc;
+    opacity: 70%;
+    min-height: 35vh;
+    display: flex; /* Добавляем flex для выравнивания элементов */
+    justify-content: center; /* Выравниваем контейнер по правому краю */
+    align-items:flex-end; /* Выравниваем по нижнему краю */
+}
+
+.menu a {
+    text-decoration: none; 
+    color: #dc64ec;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    padding: 8px 12px;
+   
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+img
+{
+    width: 150px; /*NEEEWWWW*/
+    height: 200px; /*NEEEWWWW*/
+}
+.gato {
+    align-self: flex-start;
+}
+
+main {
+    background-color: #ead7ff;
+    min-height: 35vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.form {
+min-height: 20vh;
+min-width: 20vh;
+padding: 10px;
+margin-left: 10px;
+}
+.container {
+display:flex ;
+padding: 10vh;
+align-items: center;
+min-height: 100vh;
+position:relative;
+}
+
+footer {
+    background-color: #f4ecff;
+    min-height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+    position: absolute;
+    width: 100%;
+
+}
+
+button {
+    border-color: aliceblue;
+    border-width: 14px solid;
+    border-radius: 15%;
+    background-color: green;
+    padding: 12px 24px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+.tooltip {
+    background-color: rgb(167, 18, 18);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 100px;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-bottom: -50px;
+}
+
+.knopka:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+  }
